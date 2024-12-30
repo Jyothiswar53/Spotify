@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Spotify</h2>
+            <ul>
+                <li>Home</li>
+                <li>Search</li>
+                <li>Your Library</li>
+            </ul>
+            <h3 class="play">Playlists</h3>
+            <ul>
+                <li>Liked Songs</li>
+                <li>Top Hits</li>
+                <li>Discover Weekly</li>
+                <li>Chill Vibes</li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <header>
+                <div class="header-left">
+                    <button class="nav-btn">←</button>
+                    <button class="nav-btn">→</button>
+                </div>
+                <div class="header-right">
+                    <input type="text" placeholder="Search for Artists, Songs, or Albums">
+                    <button class="profile-btn">Profile</button>
+                </div>
+            </header>
+
+            <section class="content">
+                <h1>Good Morning</h1>
+                <div class="playlist-grid">
+                    <div class="playlist-item">Hits Playlist</div>
+                    <div class="playlist-item">Pop Essentials</div>
+                    <div class="playlist-item">Rock Classics</div>
+                    <div class="playlist-item">Workout Mix</div>
+                    <div class="playlist-item">Relaxing Sounds</div>
+                    <div class="playlist-item">Jazz Collection</div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="current-track">
+                <p>Now Playing: "Song Title" - Artist</p>
+            </div>
+            <div class="controls">
+                <button>⏮️</button>
+                <button>⏮️</button>
+                <button>⏭️</button>
+            </div>
+            <div class="volume">
+                <input type="range" min="0" max="100" value="50">
+            </div>
+        </footer>
+    
+       <footer class="music-player">
+            <div class="controls">
+                <button>Prev</button>
+                <button>Play</button>
+                <button>Next</button>
+            </div>
+            <div class="progress-bar">
+                <span>00:00</span>
+                <div class="bar"></div>
+                <span>03:45</span>
+            </div>
+            <div class="volume">
+                <span>Volume</span>
+                <input type="range">
+            </div>
+              
+        </footer>
+    
+    </div>
+</body>
+</html>
